@@ -1,0 +1,71 @@
+CHICO.OS — PERFIL DE NETOOOCHIICO
+Estudante do 3º ano do ensino médio, aprendendo programação e cibersegurança.
+
+INSTALAÇÃO PELO NAVEGADOR
+1. Extraia o ZIP usando "Extrair tudo" no Windows.
+2. Abra https://github.com/netooochiico/netooochiico
+3. Clique em Add file > Upload files.
+4. Envie juntos: README.md e as pastas assets, scripts e .github.
+   Envie os itens de dentro da pasta extraída, não a pasta externa nem o ZIP.
+5. Clique em Commit changes.
+6. Abra Actions. O workflow "Profile Update" deve iniciar automaticamente.
+   Se precisar, selecione Profile Update > Run workflow > Run workflow.
+7. Aguarde a execução e abra https://github.com/netooochiico
+
+Se o GitHub não enviar a pasta .github ao arrastar, use Add file > Create
+new file, nomeie como .github/workflows/profile.yml e copie para o editor
+o conteúdo desse arquivo no pacote. Salve em Commit changes.
+
+O README.md também pode ser aberto num editor e seu texto copiado para
+o README do repositório. As imagens precisam da pasta assets enviada.
+A animação e as atualizações completas precisam do workflow e dos scripts.
+
+O QUE ESTÁ INCLUÍDO
+- Banner SVG com inicialização, órbita e barra de progresso animadas.
+- Typing Animation em SVG, sem JavaScript.
+- Apresentação em português e objetivos em formato de terminal.
+- Ícones oficiais Devicon, badges locais e cards dos projetos existentes.
+- GitHub Stats, Top Languages, Streak, Activity Graph e Snake.
+- GitHub Trophies gerado após a primeira execução bem-sucedida do workflow.
+- Atualização diária pelo GitHub Actions, usando o GITHUB_TOKEN automático.
+- Não é necessário informar token no README ou criar um token pessoal.
+
+DADOS E ESTADO ATUAL
+As artes iniciais de atividade, streak e estatísticas usam dados públicos
+consultados em 03/11/2026. Não incluem os repositórios privados. Por isso os
+números podem diferir do gráfico que você vê estando logado em sua conta.
+
+Como o repositório público atual não contém código classificado por linguagem,
+Top Languages começa com uma mensagem informativa. O workflow troca esse
+painel quando houver dados públicos suficientes; ele não inventa porcentagens.
+Os seus projetos NexStack, dna-pro e nexstack-factory foram marcados como
+privados. Os cards exibem somente os nomes e linguagens vistos no print.
+
+As estatísticas locais são usadas até a primeira execução. O workflow tenta
+substituir os cards de stats e linguagens pelo GitHub Readme Stats e atualizar
+os troféus pelo GitHub Profile Trophy e a Snake pelo Platane/snk. Imagens de
+erro não substituem as anteriores. Falhas em um serviço preservam as artes
+anteriores, e os logs ficam na aba Actions.
+
+O workflow foi conferido em estrutura e com as entradas documentadas das
+actions. A execução real dentro da sua conta ainda precisa acontecer.
+
+REDES SOCIAIS
+Seu GitHub já está configurado. LinkedIn e Instagram estão em um comentário
+no final do README. Substitua SEU_USUARIO pelos identificadores reais antes
+de descomentar. Não há links sociais inventados visíveis no perfil.
+
+COMPATIBILIDADE
+O README usa HTML e Markdown aceitos pelo GitHub. Estilos e animações ficam
+dentro dos SVGs, sem scripts, iframes, foreignObject ou CSS de página.
+O GitHub decide o tema de fundo da página. Os painéis têm o próprio fundo
+escuro. As imagens usam largura limitada ao espaço disponível; em telas
+estreitas os cards de analytics podem aparecer um abaixo do outro.
+
+REFERÊNCIAS DOS GERADORES
+https://github.com/anuraghazra/github-readme-stats
+https://github.com/stats-organization/github-readme-stats-action
+https://github.com/ryo-ma/github-profile-trophy
+https://github.com/Erik-Donath/github-profile-trophy/tree/feature/generate-svg
+https://github.com/Platane/snk
+https://github.com/devicons/devicon
